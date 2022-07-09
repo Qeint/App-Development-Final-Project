@@ -1,0 +1,10 @@
+Example of a switch statment in C
+
+void processUserChoice(char choice) { switch (choice) { case 'a': case 'A'; start(); break; case 'b': case 'B'; about(); break; case 'c': case 'C'; exit(0); break; default: printf("Not a valid choice: %c\n", choice); break; } }
+
+GamePlay ideas
+I'm going to use Risk of Rain 2 system for gameplay
+You need to stay inside charage the tel for a certian amount of turns. However you have to stay inside. However the viruses can push you and take control. You can also go out to avoid big attacks However that lowers your charage the longer you stay out.
+I'm going to change the plot too.
+You are now a virus trying to invade an immune system.
+
